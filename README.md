@@ -1,6 +1,6 @@
-# 🚀 [Your Project Title Here]
+# 🚢 CongestiQ
 
-> ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
+## AI-Powered Port Congestion Prediction & Operations Optimizer
 
 ---
 
@@ -8,114 +8,109 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Name** | CongestiQ |
+| **Track** | AI |
+| **Team Lead** |  Rathi Divya L. — d26dce132@charusat.edu.in |
+| **Members** | Urva , Liza, Vidhi |
 
 ---
 
 ## 🎯 Problem Statement
 
-> In 2–3 sentences: What problem does your project solve? Who experiences this problem?
-
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
-
----
+Port operators manage berths, cranes, and yard space for hundreds of vessels,
+but congestion is often identified only after ships begin queuing. This causes
+delays and makes alternate routing and resource allocation decisions difficult
+to make in time.
 
 ## 💡 Solution
 
-> In 2–3 sentences: What did you build? How does it solve the problem above?
+CongestiQ is an AI-powered port operations system that predicts upcoming
+congestion using vessel schedules and port capacity data. It identifies vessels
+at risk of delay, recommends alternative routing strategies, optimizes berth
+and crane assignments, and generates a prioritized 72-hour operations plan.
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+### Key Features
 
----
+- AI-powered port congestion prediction
+- Vessel delay and congestion risk detection
+- Alternative routing recommendations
+- Berth and crane assignment optimization
+- AI-generated 72-hour port operations plan
 
-## ✨ Key Features
+### Tech Stack
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
-
----
-
-## 🛠️ Tech Stack
-
-| Category | Technologies |
-|---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
-
+- Python
+- JavaScript
+- FastAPI
+- React
+- PostgreSQL
+- IBM Bob
 ---
 
 ## 📁 Repository Structure
 
 ```
-├── src/                  # All source code
-├── docs/                 # Written documentation
+
+```text
+bob-ai-hackathon-CongestiQ/
+│
+├── .github/
+│   └── workflows/
+│       └── validate.yml
+│
+├── src/
+│   ├── frontend/
+│   ├── backend/
+│   └── README.md
+│
+├── docs/
 │   ├── problem-statement.md
 │   ├── solution-overview.md
 │   ├── architecture.md
 │   └── setup-guide.md
-├── demo/                 # Demo artifacts
-│   ├── screenshots/      # App screenshots
-│   └── demo-video-link.txt  # Link to demo video
-├── presentation/         # Slide deck
-└── submission.yaml       # Structured submission metadata
+│
+├── demo/
+│   ├── screenshots/
+│   ├── demo-video-link.txt
+│   ├── live-demo-url.txt
+│   └── README.md
+│
+├── presentation/
+│   └── slides.pdf
+│
+├── submission.yaml
+├── README.md
+├── CONTRIBUTING.md
+└── .gitignore
 ```
 
 ---
 
 ## ⚡ How to Run
 
-> **Copy these exact steps from your [`docs/setup-guide.md`](docs/setup-guide.md)**
+Setup and run instructions will be added after the CongestiQ application is implemented.
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/[your-repo].git
-cd [your-repo]
-
-# 2. Install dependencies
-[your install command here]
-
-# 3. Configure environment
-cp .env.example .env
-# Edit .env with your values
-
-# 4. Run the project
-[your run command here]
-```
-
----
+Please see `docs/setup-guide.md` for the final step-by-step installation and
+execution instructions.
 
 ## 🖥️ Demo
 
 | Artifact | Link |
 |---|---|
-| 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
-| 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
-| 🖼️ Screenshots | [See demo/screenshots/](demo/screenshots/) |
-| 📊 Presentation | [See presentation/slides.pdf](presentation/) |
-
+| 🎥 Demo Video | Coming soon |
+| 🌐 Live Demo | NOT DEPLOYED |
+| 📸 Screenshots | Coming soon |
+| 📊 Presentation | Coming soon |
 ---
 
-## ⚠️ Known Limitations
+### Known Limitations
 
-> Be honest — judges appreciate transparency over overclaiming.
+The prototype uses simulated or sample port operational data and is intended
+as a decision-support system. Predictions and recommendations depend on the
+quality and availability of input data.
 
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
+### What We're Most Proud Of
 
----
-
-## 🏅 What We're Most Proud Of
-
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
-
----
+CongestiQ combines congestion prediction, operational optimization, and
+AI-powered decision support into one platform, helping port operators
+understand upcoming congestion and take proactive action.
