@@ -1,26 +1,57 @@
-# Screenshots
+# CongestiQ — AI-Powered Port Congestion Prediction & Operations Optimizer
 
-Place your application screenshots in this folder.
+> **Predict congestion. Optimize operations. Keep cargo moving.**
 
-## Naming Convention
+## Overview
 
-Name your screenshots sequentially so they appear in logical order:
+CongestiQ is a port operations decision-support system designed to help port operators identify congestion risks before they become severe and convert those predictions into operational actions.
 
-  01-landing-page.png       ← First thing a user sees
-  02-main-feature.png       ← Your primary feature in action
-  03-output-or-results.png  ← The result / value delivered
-  04-additional-feature.png ← Any other notable screen
+The system analyzes simulated vessel schedules and port resource data to:
 
-## Requirements
+- Predict port-wide congestion
+- Detect high-risk vessels
+- Identify congestion hotspots
+- Optimize berth assignments
+- Optimize crane assignments
+- Recommend alternative routing actions
+- Generate a prioritized 72-hour operations plan
 
-- Minimum: 3 screenshots
-- Format: PNG or JPG
-- Show the application running with real (or realistic mock) data
-- Avoid screenshots of empty states or placeholder data
-- Captions are not required but appreciated
+The prototype demonstrates the complete workflow from operational data analysis to actionable port planning.
 
-## Tips
+---
 
-- Use a consistent browser window size across all screenshots
-- Highlight key UI elements with arrows/circles if helpful (use any image editor)
-- Include a screenshot showing IBM technology integration if applicable
+## Problem
+
+Port operators need to coordinate hundreds of vessel movements while managing limited berth and crane capacity.
+
+When congestion is detected only after queues have already formed, operational teams have fewer options to respond effectively. Congestion can lead to vessel delays, berth conflicts, inefficient resource utilization, and disruption across the supply chain.
+
+CongestiQ addresses this challenge by providing a forward-looking congestion analysis and connecting prediction results directly to operational recommendations.
+
+---
+
+## Solution
+
+CongestiQ combines congestion prediction, vessel risk detection, hotspot analysis, resource optimization, routing recommendations, and 72-hour planning in one dashboard.
+
+### Core workflow
+
+```text
+Vessel Schedules + Port Resources
+                ↓
+       CongestiQ Backend
+        Python + FastAPI
+                ↓
+     Congestion & Risk Analysis
+                ↓
+        Hotspot Detection
+                ↓
+     Berth + Crane Optimization
+                ↓
+   Alternative Routing Actions
+                ↓
+      72-Hour Operations Plan
+                ↓
+         React Dashboard
+                ↓
+          Port Operator

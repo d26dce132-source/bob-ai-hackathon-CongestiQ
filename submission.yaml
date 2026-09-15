@@ -33,24 +33,24 @@ submission:
     to make in time.
 
   solution_summary: >                  # REQUIRED — 1-3 sentences. What did you build?
-   CongestiQ is an AI-powered port operations system that predicts upcoming
+    CongestiQ is an AI-powered port operations system that predicts upcoming
     congestion using vessel schedules and port capacity data. It identifies
     vessels at risk of delay, recommends alternative routing strategies,
     optimizes berth and crane assignments, and generates a prioritized 72-hour
-    operations plan for port supervisors
+    operations plan for port supervisors.
 
   key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
-   - "AI-powered port congestion prediction"
+    - "AI-powered port congestion prediction"
     - "Vessel delay and congestion risk detection"
     - "Alternative routing recommendations"
     - "Berth and crane assignment optimization"
-    - "AI-generated 72-hour port operations plan"                             # optional 5th
+    - "AI-generated 72-hour port operations plan"
 
   tech_stack:
     languages: ["Python", "JavaScript"]                      # REQUIRED — e.g., ["Python", "TypeScript"]
     frameworks: ["FastAPI", "React"]                     # e.g., ["FastAPI", "React"]
     ibm_technologies: ["IBM Bob"]               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
-    databases: ["PostgreSQL"]                      # e.g., ["PostgreSQL", "Redis"]
+    databases: ["SQLite", "PostgreSQL"]                      # e.g., ["PostgreSQL", "Redis"]
     other: []                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
 
   what_we_are_most_proud_of: >         # Optional but recommended — guides judges to your best work
