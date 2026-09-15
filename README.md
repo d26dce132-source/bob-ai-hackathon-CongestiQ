@@ -97,10 +97,10 @@ execution instructions.
 
 | Artifact | Link |
 |---|---|
-| 🎥 Demo Video | Coming soon |
+| 🎥 Demo Video | [Watch Demo](demo/demo-video-link.txt) |
 | 🌐 Live Demo | NOT DEPLOYED |
-| 📸 Screenshots | Coming soon |
-| 📊 Presentation | Coming soon |
+| 📸 Screenshots | [View Screenshots](demo/screenshots/) |
+| 📊 Presentation | [View PDF](presentation/slides.pdf) · [PowerPoint](presentation/slides.pptx) |
 ---
 
 ### Known Limitations
